@@ -10,7 +10,7 @@ import file_utils
 import translate_utils
 from utils import time_task, audio_extensions, video_extensions, check_other_extensions
 
-version = "v0.16"
+version = "v0.16.1"
 
 # Terminal colors
 default = "\033[1;0m"
@@ -31,7 +31,7 @@ print(f"""
 {blue}888     Y8b.     {gray}Y88b  d88P Y8b.     888  888
 {blue}88888888 "Y8888  {gray} "Y8888P88  "Y8888  888  888
 
-legen {version} - github.com/matheusbach/legen{default}
+legen {version} - github.com/matheusbach/legen - fix by github.com/RafaelGodoyEbert/legen{default}
 python {__import__('sys').version}
 """)
 time.sleep(1.5)
